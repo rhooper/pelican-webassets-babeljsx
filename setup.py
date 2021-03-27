@@ -27,5 +27,5 @@ setuptools.setup(
     ],
     packages=["pelican.plugins.webassets_babeljsx"],
     python_requires=">=3.6",
-    install_requires=["pelican>4.5.0,<5", "dukpy"],
+    install_requires=["pelican>4.5.0,<5", "dukpy", "pelican-webassets"],
 )
